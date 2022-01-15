@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.html {
+  color: tomato;
+}
+.css3 {
+  color: #0d6efd;
+}
+footer a:active,
+footer a:hover {
+  color: #ddd;
+}
+.quote {
+  padding: 3rem;
+}
+/* Mobile first Design */
+/* Landscape */
+@media (min-width: 576px) {
+  .jumbotron,
+  #about,
+  #projects,
+  footer {
+    padding-top: 1.5rem;
+    background: linear-gradient(#28313b, #485461);
+  }
+  .jumbotron img {
+    width: 25vw;
+  }
+  .jumbotron h1 {
+    margin-top: 1rem;
+  }
+  .jumbotron p:first-of-type {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  .jumbotron .quote {
+    margin-top: 4rem;
+    padding: 3rem;
+    text-align: justify;
+  }
+  .jumbotron p:last-of-type {
+    padding: 0 3rem;
+    text-align: center;
+    margin-top: -1rem;
+  }
+  #about p {
+    padding: 0 1rem;
+    text-align: justify;
+  }
+  #projects {
+    margin-bottom: 3rem;
+  }
+  #contact {
+    margin-top: -4rem;
+  }
+  footer a {
+    text-decoration: none;
+    color: #7c98b3;
+  }
+}
+/* Potrait Phone */
+@media (max-width: 767.98px) {
+  /* Mantap */
+  p {
+    white-space: pre-line;
+  }
+  .jumbotron,
+  #about,
+  #projects,
+  footer {
+    padding-top: 1.5rem;
+    background: linear-gradient(#28313b, #485461);
+  }
+  .jumbotron img {
+    width: 55vw;
+  }
+  .jumbotron h1 {
+    margin-top: 1rem;
+  }
+  .jumbotron p:first-of-type {
+    font-size: 1rem;
+    padding: 2rem;
+  }
+  .jumbotron .blockquote {
+    font-size: 1rem;
+    text-align: justify;
+  }
+  .jumbotron .quote {
+    margin-top: 2rem;
+    padding: 2rem;
+    text-align: left;
+    font-size: 1rem;
+  }
+  .jumbotron p:last-of-type {
+    padding: 2rem;
+    text-align: justify;
+    font-size: 1rem;
+  }
+  #about p {
+    padding: 0 1rem;
+    text-align: justify;
+    margin-top: -1rem;
+  }
+  #about p:last-of-type {
+    padding-top: 1rem;
+  }
+  #projects {
+    margin-bottom: 3rem;
+  }
+  #projects .card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    padding: 1rem;
+    background: #485461;
+  }
+  #projects .card p {
+    color: whitesmoke;
+  }
+  #contact {
+    margin-top: -4rem;
+  }
+  footer a {
+    text-decoration: none;
+    color: #7c98b3;
+  }
+  .html,
+  .css3,
+  .bootstrap {
+    font-size: 2rem;
+  }
+  /* #icon .kanan {
+    margin-left: 1rem;
+  } */
+}
+/* Landscape and ++ */
+@media (min-width: 768px) {
+  .jumbotron,
+  #about,
+  #projects,
+  footer {
+    padding-top: 1.5rem;
+    background: linear-gradient(#28313b, #485461);
+  }
+  .jumbotron .p1 {
+    font-size: 1.5rem;
+    padding: 2rem 3rem 0 3rem;
+  }
+  .jumbotron .quote {
+    margin-top: 3rem;
+    font-size: 1.4rem;
+  }
+  .jumbotron p:last-of-type {
+    font-size: 1rem;
+    margin-top: 3rem;
+  }
+  .row p {
+    order: 3;
+    text-align: left;
+  }
+  #icon {
+    margin-top: -2.5rem;
+  }
+  .html,
+  .css3,
+  .bootstrap {
+    font-size: 3rem;
+  }
+}
+/* Dekstop */
+@media (min-width: 992px) {
+  .jumbotron p {
+    text-align: center;
+  }
+  .jumbotron,
+  #about,
+  #projects,
+  footer {
+    padding-top: 1.5rem;
+    background: linear-gradient(#28313b, #485461);
+  }
+  .jumbotron .quote {
+    padding: 3rem;
+    text-align: center;
+  }
+  #contact {
+    margin-top: 3rem;
+  }
+  #contact form {
+    margin-top: 3rem;
+  }
+  .row p {
+    order: 3;
+    text-align: left;
+  }
+}
